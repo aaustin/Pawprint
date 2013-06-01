@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="17" />
 
     <application
@@ -24,8 +24,13 @@
         </activity>
         <activity
             android:name="com.pawprintlabs.pawprint.SplashActivity"
-            android:label="@string/title_activity_splash" 
-            android:theme="@android:style/Theme.Black.NoTitleBar">
+            android:label="@string/title_activity_splash"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.pawprintlabs.pawprint.LoginRegisterActivity"
+            android:label="@string/title_activity_login_register"
+            android:theme="@android:style/Theme.Black.NoTitleBar"  >
         </activity>
     </application>
 
